@@ -9,47 +9,19 @@
   <body>
     <%- include('./layout/header'); -%>
 
-    <h1 class="index-title">我是首頁</h1>
-
-    <div class="card" style="width: 18rem">
-      <img src="../assets/images/cat.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit, iusto odio assumenda alias id
-          nobis earum!
-        </p>
-      </div>
-    </div>
-
-    <!-- Modal 按鈕 -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      打開 modal
-    </button>
-
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
-            <button type="button" class="btn btn-primary">確定</button>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-5">
+          <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/index-1.png?raw=true" alt="">
+        </div>
+        <div class="col-7 text-primary m-auto">
+          <h3 class="mb-1 fs-1">寵物服務，盡在 PETPET</h3>
+          <h4 class="fs-4">當您的毛孩在需要時，幫您找到最合適的服務者!</h4>
         </div>
       </div>
     </div>
 
+  
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
