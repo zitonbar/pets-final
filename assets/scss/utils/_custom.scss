@@ -30,18 +30,41 @@
 }
 .custom-img-bg-3 {
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/index-7.jpeg?raw=true);
+    z-index: -1;
 }
 .custom-img-bg-4 {
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/index-8.jpeg?raw=true);
+    z-index: -1;
 }
 .custom-img-bg-5 {
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/index-9.jpeg?raw=true);
+    z-index: -1;
 }
-
+.custom-img-bg-6 {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/index-9.jpeg?raw=true);
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
 // utils
 .pt-70 {
     padding-top: 70px;
 }
 .py-80 {
     padding: 80px 0;
+}
+.pt-80 {
+    margin-top: 80px;
+}
+.pb-132 {
+    padding-bottom: 132px;
+}
+.mt-80 {
+    margin-top: 80px;
+}
+.mb-132 {
+    margin-bottom: 132px;
+}
+.mb-100 {
+    margin-bottom: 100px;
 }
