@@ -47,6 +47,7 @@
     height: 100%;
 }
 // utils
+// padding y
 .py-28 {
     padding-top: 28px;
     padding-bottom: 28px;
@@ -55,29 +56,40 @@
     padding-top: 36px;
     padding-bottom: 36px;
 }
+.py-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .py-80 {
     padding-top: 80px;
     padding-bottom: 80px;
 }
-
+// padding top
 .pt-70 {
     padding-top: 70px;
-}
-.pb-80 {
-    padding-bottom: 80px;
 }
 .pt-80 {
     padding-top: 80px;
 }
+// padding bottom
+.pb-80 {
+    padding-bottom: 80px;
+}
 .pb-100 {
     padding-bottom: 100px;
+}
+.pb-110 {
+    // margin-bottom: 110px;
+    padding-bottom: 110px;
 }
 .pb-132 {
     padding-bottom: 132px;
 }
+// margin top
 .mt-80 {
     margin-top: 80px;
 }
+// margin bottom
 .mb-20 {
     margin-bottom: 20px;
 }
@@ -86,8 +98,4 @@
 }
 .mb-100 {
     margin-bottom: 100px;
-}
-.pb-110 {
-    // margin-bottom: 110px;
-    padding-bottom: 110px;
 }
