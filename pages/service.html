@@ -23,17 +23,58 @@
     <div class="bg-secondary">
         <div class="container">
             <!-- Example single danger button -->
-            <div class="btn-group">
-                <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Action
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">貓</a></li>
-                  <li><a class="dropdown-item" href="#">狗</a></li>
-                  <li><a class="dropdown-item" href="#">兔子</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
-                </ul>
+            <div class="row py-3">
+              <div class="col">
+                <div class="btn-group">
+                  <!-- 第一個按鈕 -->
+                  <button class="btn btn-light dropdown-toggle" type="button" id="breedDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    品種
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="breedDropdown">
+                    <li><a class="dropdown-item" href="#">貓</a></li>
+                    <li><a class="dropdown-item" href="#">狗</a></li>
+                    <li><a class="dropdown-item" href="#">兔子</a></li>
+                  </ul>
+                </div>
+              
+                <div class="btn-group ms-2">
+                  <!-- 第二個按鈕 -->
+                  <button class="btn btn-light dropdown-toggle" type="button" id="locationDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    地區
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="locationDropdown">
+                    <li><a class="dropdown-item" href="#">淡水區</a></li>
+                    <li><a class="dropdown-item" href="#">八里區</a></li>
+                    <li><a class="dropdown-item" href="#">五股區</a></li>
+                    <li><a class="dropdown-item" href="#">三重區</a></li>
+                    <li><a class="dropdown-item" href="#">蘆洲區</a></li>
+                  </ul>
+                </div>
+              
+                <div class="btn-group ms-2">
+                  <!-- 第三個按鈕，日期選擇器 -->
+                  <button class="btn btn-light dropdown-toggle" type="button" id="startDateDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    選擇日期
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="startDateDropdown">
+                    <li><a class="dropdown-item" href="#">年</a></li>
+                    <li><a class="dropdown-item" href="#">月</a></li>
+                    <li><a class="dropdown-item" href="#">日</a></li>
+                  </ul>
+                  <span class="m-4 my-auto">至</span>
+                  <!-- 第四個按鈕，日期選擇器 -->
+                  <button class="btn btn-light dropdown-toggle rounded-3" type="button" id="endDateDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    選擇日期
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="endDateDropdown">
+                    <li><a class="dropdown-item" href="#">年</a></li>
+                    <li><a class="dropdown-item" href="#">月</a></li>
+                    <li><a class="dropdown-item" href="#">日</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
     </div>
     <div class="container py-80">
@@ -109,11 +150,101 @@
             </div>
           </div>
         </div>
-        <div class="row g-5">
+        <div class="row g-4">
             <div class="col-12 col-md-4 col-lg-3">
                 <div class="card">
                     <div class="card-img-top">
                         <img class="img-fluid rounded-top" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/homestay-2.jpeg?raw=true" alt="">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-title text-primary">寵屋屋</p>
+                        <p class="card-text text-primary">寄宿、美容洗澡、到府保姆</p>
+                        <div class="d-flex justify-content-around bg-white">
+                            <a href="#" class="text-decoration-none link-primary btn">聯繫</a>
+                            <a href="#" class="text-decoration-none link-primary btn">預約</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card">
+                    <div class="card-img-top">
+                        <img class="img-fluid rounded-top" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/homestay-3.jpeg?raw=true" alt="">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-title text-primary">寵屋屋</p>
+                        <p class="card-text text-primary">寄宿、美容洗澡、到府保姆</p>
+                        <div class="d-flex justify-content-around bg-white">
+                            <a href="#" class="text-decoration-none link-primary btn">聯繫</a>
+                            <a href="#" class="text-decoration-none link-primary btn">預約</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card">
+                    <div class="card-img-top">
+                        <img class="img-fluid rounded-top" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/homestay-4.jpeg?raw=true" alt="">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-title text-primary">寵屋屋</p>
+                        <p class="card-text text-primary">寄宿、美容洗澡、到府保姆</p>
+                        <div class="d-flex justify-content-around bg-white">
+                            <a href="#" class="text-decoration-none link-primary btn">聯繫</a>
+                            <a href="#" class="text-decoration-none link-primary btn">預約</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card">
+                    <div class="card-img-top">
+                        <img class="img-fluid rounded-top" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/homestay-5.jpeg?raw=true" alt="">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-title text-primary">寵屋屋</p>
+                        <p class="card-text text-primary">寄宿、美容洗澡、到府保姆</p>
+                        <div class="d-flex justify-content-around bg-white">
+                            <a href="#" class="text-decoration-none link-primary btn">聯繫</a>
+                            <a href="#" class="text-decoration-none link-primary btn">預約</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card">
+                    <div class="card-img-top">
+                        <img class="img-fluid rounded-top" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/homestay-6.jpeg?raw=true" alt="">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-title text-primary">寵屋屋</p>
+                        <p class="card-text text-primary">寄宿、美容洗澡、到府保姆</p>
+                        <div class="d-flex justify-content-around bg-white">
+                            <a href="#" class="text-decoration-none link-primary btn">聯繫</a>
+                            <a href="#" class="text-decoration-none link-primary btn">預約</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card">
+                    <div class="card-img-top">
+                        <img class="img-fluid rounded-top" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/homestay-7.jpeg?raw=true" alt="">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-title text-primary">寵屋屋</p>
+                        <p class="card-text text-primary">寄宿、美容洗澡、到府保姆</p>
+                        <div class="d-flex justify-content-around bg-white">
+                            <a href="#" class="text-decoration-none link-primary btn">聯繫</a>
+                            <a href="#" class="text-decoration-none link-primary btn">預約</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card">
+                    <div class="card-img-top">
+                        <img class="img-fluid rounded-top" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/homestay-8.jpeg?raw=true" alt="">
                     </div>
                     <div class="card-body">
                         <p class="card-title text-primary">寵屋屋</p>
@@ -140,116 +271,30 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
-                <div class="card">
-                    <div class="card-img-top">
-                        <img class="img-fluid rounded-top" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/homestay-2.jpeg?raw=true" alt="">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title text-primary">寵屋屋</p>
-                        <p class="card-text text-primary">寄宿、美容洗澡、到府保姆</p>
-                        <div class="d-flex justify-content-around bg-white">
-                            <a href="#" class="text-decoration-none link-primary btn">聯繫</a>
-                            <a href="#" class="text-decoration-none link-primary btn">預約</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 col-lg-3">
-                <div class="card">
-                    <div class="card-img-top">
-                        <img class="img-fluid rounded-top" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/homestay-2.jpeg?raw=true" alt="">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title text-primary">寵屋屋</p>
-                        <p class="card-text text-primary">寄宿、美容洗澡、到府保姆</p>
-                        <div class="d-flex justify-content-around bg-white">
-                            <a href="#" class="text-decoration-none link-primary btn">聯繫</a>
-                            <a href="#" class="text-decoration-none link-primary btn">預約</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 col-lg-3">
-                <div class="card">
-                    <div class="card-img-top">
-                        <img class="img-fluid rounded-top" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/homestay-2.jpeg?raw=true" alt="">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title text-primary">寵屋屋</p>
-                        <p class="card-text text-primary">寄宿、美容洗澡、到府保姆</p>
-                        <div class="d-flex justify-content-around bg-white">
-                            <a href="#" class="text-decoration-none link-primary btn">聯繫</a>
-                            <a href="#" class="text-decoration-none link-primary btn">預約</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 col-lg-3">
-                <div class="card">
-                    <div class="card-img-top">
-                        <img class="img-fluid rounded-top" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/homestay-2.jpeg?raw=true" alt="">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title text-primary">寵屋屋</p>
-                        <p class="card-text text-primary">寄宿、美容洗澡、到府保姆</p>
-                        <div class="d-flex justify-content-around bg-white">
-                            <a href="#" class="text-decoration-none link-primary btn">聯繫</a>
-                            <a href="#" class="text-decoration-none link-primary btn">預約</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 col-lg-3">
-                <div class="card">
-                    <div class="card-img-top">
-                        <img class="img-fluid rounded-top" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/homestay-2.jpeg?raw=true" alt="">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title text-primary">寵屋屋</p>
-                        <p class="card-text text-primary">寄宿、美容洗澡、到府保姆</p>
-                        <div class="d-flex justify-content-around bg-white">
-                            <a href="#" class="text-decoration-none link-primary btn">聯繫</a>
-                            <a href="#" class="text-decoration-none link-primary btn">預約</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 col-lg-3">
-                <div class="card">
-                    <div class="card-img-top">
-                        <img class="img-fluid rounded-top" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/homestay-2.jpeg?raw=true" alt="">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title text-primary">寵屋屋</p>
-                        <p class="card-text text-primary">寄宿、美容洗澡、到府保姆</p>
-                        <div class="d-flex justify-content-around bg-white">
-                            <a href="#" class="text-decoration-none link-primary btn">聯繫</a>
-                            <a href="#" class="text-decoration-none link-primary btn">預約</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-end">
+                <li class="page-item">
+                  <a class="page-link text-primary">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link text-primary" href="#">1</a></li>
+                <li class="page-item"><a class="page-link text-primary" href="#">2</a></li>
+                <li class="page-item"><a class="page-link text-primary" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link text-primary" href="#">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
         </div>
     </div> 
     <div class="container">
         <div class="row"></div>
         <div class="row"></div>
     </div>
-    <div class="bg-secondary">
-        <div class="container py-36">
-          <div class="row">
-            <div class="col-6">
-              <h3 class="text-primary fs-1">有任何我們能幫助您的嗎?</h3>
-              <p class="text-primary fs-5">輸入電子信箱<br>將有專業人員在線幫您解決所有問題</p>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control fs-5" placeholder="example@gmail.com" aria-label="Recipient's username" aria-describedby="button-addon2">
-                <button class="btn btn-outline-danger bg-danger text-light col-3" type="button" id="button-addon2">送出</button>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
+    
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
