@@ -4,7 +4,6 @@
 
 // custom images (index use)
 .custom-background-1 {
-
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/index-2.jpeg?raw=true);
 }
 .custom-background-2 {
@@ -12,15 +11,6 @@
 }
 .custom-background-3 {
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/index-4.jpeg?raw=true);
-}
-.custom-background {
-    background-size: cover;
-    background-position: 50% 25%;
-    height: 50%;
-}
-.custom-img-bg {
-    background-size: cover;
-    background-position: center;
 }
 .custom-img-bg-1 {
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/index-5.jpeg?raw=true);
@@ -38,7 +28,7 @@
 }
 .custom-img-bg-5 {
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/index-9.jpeg?raw=true);
-    z-index: -1;
+    // z-index: -1;
 }
 .custom-img-bg-6 {
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-petpet/index-9.jpeg?raw=true);
@@ -50,6 +40,15 @@
 //background
 .bg-cover {
     background-size: cover;
+}
+.bg-position-50-25 {
+    background-position: 50% 25%;
+    // height: 50%;
+}
+// images
+.img-cover {
+    background-size: cover;
+    background-position: 50% 25%;
 }
 // padding y
 .py-28 {
