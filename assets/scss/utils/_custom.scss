@@ -37,6 +37,12 @@
     height: 100%;
 }
 // utils
+// object-fit
+.img-cover {
+    object-fit: cover;
+    object-position: center center;
+    height: 100%;
+}
 // background
 .bg-cover {
     background-size: cover;
